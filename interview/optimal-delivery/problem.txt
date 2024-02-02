@@ -1,0 +1,23 @@
+This is a fun problem I always enjoy walking through with people. It's influenced by a problem I had to solve in my career which may not need super advanced coding skills or knowledge of data structures, but needs some good old fashioned thinking and problem solving. Submit your solution and I'll reach out to you if I find it interesting!
+
+Here's the problem:
+
+Imagine you're working at T-shirt factory and you manage orders by packing a bulk amount of shirts into a certain amount of bags. Meaning, for every order you have a specification of how many bags you have to fill, and a fixed number of shirts to fill them with.
+
+The requirement is to be able to distribute the shirts in the bag as evenly as possible. For example, if there are 100 shirts, and 10 bags, then each bag will get 10 shirts. However, sometimes the shirt factory will have production errors, and it might produce the wrong number of shirts. It's not going to be 200 shirts instead of 100, but it will have some minor deviation from the original number.
+
+Just to clarify, for every order there is a fixed number of shirts and fixed number of bags, you will just have to distribute the shirts across the bags as evenly as possible.
+
+Write a function to solve this problem. Define the function name, input parameters and output type as you wish.
+
+Constraints:
+- The number of shirts and number of bags will always be known
+- The size of the bag does not matter
+- You can only have one bag with a different number of shirts
+- You have to use all the bags, and cannot add or remove any bags
+- The goal is to minimise the deviation of number of shirts in each bag, i.e. as even as possible. - (Bonus points if you can only have a single bag that has a different number of shirts)
+- You should come up with your own test cases
+
+Some things in this problem are purposefully left vague to see how you think about this problem. Think of what you would do if you physically had the shirts and bags in front of you, and what would the most efficient way to do this would be.
+
+Feel free to use any language.
